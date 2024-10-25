@@ -1,0 +1,10 @@
+.LoginSection {
+  .input-style {
+    // @apply p-5 bg-white w-full rounded-full border border-gray-400 outline-none text-black;
+    @apply p-5 bg-transparent w-full border-b outline-none text-white text-xl;
+  }
+
+  .btn-style {
+    @apply p-4 bg-white w-full text-lg  border rounded-sm border-white outline-none text-black font-bold;
+  }
+}
