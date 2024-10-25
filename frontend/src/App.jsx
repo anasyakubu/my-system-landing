@@ -8,7 +8,7 @@ import NotFound from "./Pages/NotFound/NotFound";
 function App() {
   return (
     <>
-      <div className="App font-nunito-eb">
+      <div className="App font-nunito-eb bg-[#1b1b1b] text-[#aeaeae]">
         <Toaster position="top-center" toastOptions={{ duration: 2000 }} />
         <BrowserRouter>
           <Routes>
