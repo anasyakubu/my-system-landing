@@ -8,10 +8,10 @@ import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 const navigation = [
   { name: "Home", href: "/" },
   { name: "About", href: "/#About" },
-  // { name: "Github", href: "https://github.com/anasyakubu", target: "_blank" },
-  { name: "Projects", href: "/Projects" },
-  { name: "Blog", href: "/Blog" },
-  { name: "Contact", href: "/Messages" },
+  { name: "Github", href: "https://github.com/anasyakubu", target: "_blank" },
+  { name: "Usage", href: "/usage" },
+  { name: "Connection", href: "/Connection" },
+  { name: "Health", href: "/health" },
 ];
 
 export default function Nav() {
