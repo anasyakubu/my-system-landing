@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import Home from "./Pages/Home/Home";
+import Connection from "./Pages/Connection/Connection";
 import { Toaster } from "react-hot-toast";
 import Landing from "./Pages/Landing/Landing";
 import NotFound from "./Pages/NotFound/NotFound";
@@ -13,7 +13,7 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Landing />} />
-            {/* <Route path="/Home" element={<Home />} /> */}
+            <Route path="/connection" element={<Connection />} />
             {/* Catch-all route for undefined paths (404 page) */}
             <Route path="*" element={<NotFound />} />
           </Routes>
